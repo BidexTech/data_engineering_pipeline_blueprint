@@ -16,7 +16,7 @@ The design emphasizes:
 
 ---
 
-## 📂 Conceptual Design
+## Conceptual Design
 
 | **Step** | **Questions** | **Answer (Conceptual Design)** |
 |----------|---------------|--------------------------------|
@@ -30,7 +30,13 @@ The design emphasizes:
 
 ---
 
-## ⚠️ Summary of Challenges & Unknowns
+## 📖 Assumptions
+- The company collects data across **multiple channels** (phone, email, chat, social media).  
+- Complaint data needs to be both **historical (batch)** and **real-time (streaming)**.  
+- Business users require both **raw complaint text** (for detailed review) and **processed insights** (for dashboards).  
+---
+
+##  Summary of Challenges & Unknowns
 - **Data Quality** → Social media/call log data may be noisy, incomplete, or unstructured.  
 - **Integration Complexity** → Consistent IDs across channels may be difficult to maintain.  
 - **Scalability** → Streaming data may grow rapidly, requiring infrastructure scaling.  
@@ -39,9 +45,11 @@ The design emphasizes:
 
 ---
 
-## 🚀 Next Steps
-- Define **technology stack** (e.g., Kafka, Spark, Snowflake, Azure Data Factory).  
-- Prototype **ETL pipelines** for one channel (e.g., call center logs).  
-- Implement **data governance policies** for compliance and security.  
-- Create **dashboards** for near real-time monitoring of complaint trends.  
+##  Issues Solved by the Pipeline
+- Eliminates **siloed complaint data** by centralizing multiple sources.  
+- Provides **near real-time monitoring** of customer issues (e.g., social media escalations).  
+- Ensures **clean, standardized complaint records** for reliable reporting.  
+- Enables **trend analysis** to identify recurring pain points (e.g., billing errors).  
+- Supports **operational efficiency** by making complaint data accessible to analysts, managers, and frontline staff.  
 
+---
