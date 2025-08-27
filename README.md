@@ -54,3 +54,6 @@ The design emphasizes:
 - Supports **operational efficiency** by making complaint data accessible to analysts, managers, and frontline staff.  
 
 ---
+## Additional Notes
+See my [Reflection / Comments](REFLECTION.md) for lessons learned during this assignment.
+
