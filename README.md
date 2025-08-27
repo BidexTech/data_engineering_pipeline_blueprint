@@ -29,19 +29,21 @@ The design emphasizes:
 | **7. DataOps** | - Where will the pipeline run?<br>- How will it be productionized? | Environment: Cloud / hybrid.<br>Deployment: Automated workflows (CI/CD).<br>Governance: Version control, role-based access, compliance enforcement. |
 
 ---
+![My Diagram](images/diagram.png)
 
-## 📖 Assumptions
+
+## Assumptions
 - The company collects data across **multiple channels** (phone, email, chat, social media).  
 - Complaint data needs to be both **historical (batch)** and **real-time (streaming)**.  
 - Business users require both **raw complaint text** (for detailed review) and **processed insights** (for dashboards).  
 ---
 
 ##  Summary of Challenges & Unknowns
-- **Data Quality** → Social media/call log data may be noisy, incomplete, or unstructured.  
-- **Integration Complexity** → Consistent IDs across channels may be difficult to maintain.  
-- **Scalability** → Streaming data may grow rapidly, requiring infrastructure scaling.  
-- **Change Management** → Teams shifting from spreadsheets need training on dashboards/self-service analytics.  
-- **Compliance** → Customer data must comply with regulations (e.g., **GDPR**).  
+- **Data Quality** : Social media/call log data may be noisy, incomplete, or unstructured.  
+- **Integration Complexity** : Consistent IDs across channels may be difficult to maintain.  
+- **Scalability** : Streaming data may grow rapidly, requiring infrastructure scaling.  
+- **Change Management** : Teams shifting from spreadsheets need training on dashboards/self-service analytics.  
+- **Compliance** : Customer data must comply with regulations (e.g., **GDPR**).  
 
 ---
 
