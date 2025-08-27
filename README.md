@@ -29,8 +29,7 @@ The design emphasizes:
 | **7. DataOps** | - Where will the pipeline run?<br>- How will it be productionized? | Environment: Cloud / hybrid.<br>Deployment: Automated workflows (CI/CD).<br>Governance: Version control, role-based access, compliance enforcement. |
 
 ---
-![My Diagram](images/diagram.png)
-
+![My Diagram](images/Beejan_Conceptual_Pipeline.drawio.png)
 
 ## Assumptions
 - The company collects data across **multiple channels** (phone, email, chat, social media).  
